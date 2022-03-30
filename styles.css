@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: yellow 3px solid;
 }
 
 .one {
@@ -34,7 +35,7 @@
     margin: 10px;
 }
 
-.links {
+.links, .hero-text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -45,6 +46,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+    border: yellow 1px solid;
+
 
 }
+
+.hero-text-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+
 
