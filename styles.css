@@ -36,8 +36,8 @@
 }
 
 .hero1 {
-    width: 600px:
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 .one {
